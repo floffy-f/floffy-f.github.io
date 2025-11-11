@@ -1,0 +1,15 @@
+# Site settings
+title: Florian Vincent
+tag_text: floffy-f
+description: Florian Vincent's personal website
+# baseurl: "/blog" # the subpath of your site, e.g. /blog
+# url: "https://example.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+plugins:
+  - jekyll-seo-tag
+
+# Build settings
+markdown: kramdown
+exclude: ["README.md"]
+sass:
+  style: compressed
